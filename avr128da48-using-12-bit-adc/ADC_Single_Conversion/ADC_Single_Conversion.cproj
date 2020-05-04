@@ -61,7 +61,11 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
       <AvrGcc>
+<<<<<<< HEAD
   <avrgcc.common.Device>-mmcu=avr128da48 -B "%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.18\gcc\dev\avr128da48"</avrgcc.common.Device>
+=======
+  <avrgcc.common.Device>-mmcu=avr128da48 -B "%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.16\gcc\dev\avr128da48"</avrgcc.common.Device>
+>>>>>>> 2a94f39f2184bd455ed1eb511b7256f7d49f3d04
   <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
   <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
   <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
@@ -76,7 +80,11 @@
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
+<<<<<<< HEAD
       <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.18\include</Value>
+=======
+      <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.16\include</Value>
+>>>>>>> 2a94f39f2184bd455ed1eb511b7256f7d49f3d04
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
@@ -90,7 +98,11 @@
   </avrgcc.linker.libraries.Libraries>
   <avrgcc.assembler.general.IncludePaths>
     <ListValues>
+<<<<<<< HEAD
       <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.18\include</Value>
+=======
+      <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.16\include</Value>
+>>>>>>> 2a94f39f2184bd455ed1eb511b7256f7d49f3d04
     </ListValues>
   </avrgcc.assembler.general.IncludePaths>
 </AvrGcc>
@@ -99,7 +111,11 @@
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
       <AvrGcc>
+<<<<<<< HEAD
   <avrgcc.common.Device>-mmcu=avr128da48 -B "%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.18\gcc\dev\avr128da48"</avrgcc.common.Device>
+=======
+  <avrgcc.common.Device>-mmcu=avr128da48 -B "%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.16\gcc\dev\avr128da48"</avrgcc.common.Device>
+>>>>>>> 2a94f39f2184bd455ed1eb511b7256f7d49f3d04
   <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
   <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
   <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
@@ -114,7 +130,11 @@
   </avrgcc.compiler.symbols.DefSymbols>
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
+<<<<<<< HEAD
       <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.18\include</Value>
+=======
+      <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.16\include</Value>
+>>>>>>> 2a94f39f2184bd455ed1eb511b7256f7d49f3d04
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize debugging experience (-Og)</avrgcc.compiler.optimization.level>
@@ -129,7 +149,11 @@
   </avrgcc.linker.libraries.Libraries>
   <avrgcc.assembler.general.IncludePaths>
     <ListValues>
+<<<<<<< HEAD
       <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.18\include</Value>
+=======
+      <Value>%24(PackRepoDir)\Atmel\AVR-Dx_DFP\1.0.16\include</Value>
+>>>>>>> 2a94f39f2184bd455ed1eb511b7256f7d49f3d04
     </ListValues>
   </avrgcc.assembler.general.IncludePaths>
   <avrgcc.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcc.assembler.debugging.DebugLevel>
