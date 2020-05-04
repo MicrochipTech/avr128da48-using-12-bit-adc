@@ -1,0 +1,15 @@
+*/ADC_Differential_Conversion/Debug/
+*/ADC_Differential_Conversion/Release/
+*/ADC_Event_Triggered/Debug/
+*/ADC_Event_Triggered/Release/
+*/ADC_Free_Running/Debug/
+*/ADC_Free_Running/Release/
+*/ADC_Sample_Accumulator/Debug/
+*/ADC_Sample_Accumulator/Release/
+*/ADC_Single_Conversion/Debug/
+*/ADC_Single_Conversion/Release/
+*/ADC_Temperature_Measurement/Debug/
+*/ADC_Temperature_Measurement/Release/
+*/ADC_Window_Comparator/Debug/
+*/ADC_Window_Comparator/Release/
+*/.vs
