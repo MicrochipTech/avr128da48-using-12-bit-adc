@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>7.0</ProjectVersion>
     <ToolchainName>com.Atmel.AVRGCC8.C</ToolchainName>
-    <ProjectGuid>{d5ba22cf-da73-43d5-bcf3-4fbb589fdb38}</ProjectGuid>
+    <ProjectGuid>{4c89998d-9406-436c-a0a1-cd3d8cfa2f18}</ProjectGuid>
     <avrdevice>AVR128DA48</avrdevice>
     <avrdeviceseries>none</avrdeviceseries>
     <OutputType>Executable</OutputType>
@@ -41,9 +41,33 @@
       </framework-data>
     </AsfFrameworkConfig>
     <avrtool>com.atmel.avrdbg.tool.nedbg</avrtool>
-    <avrtoolserialnumber>MCHP3280031800000108</avrtoolserialnumber>
+    <avrtoolserialnumber>MCHP3280031800000121</avrtoolserialnumber>
     <avrdeviceexpectedsignature>0x1E9708</avrdeviceexpectedsignature>
+    <custom>
+      <ToolOptions>
+        <InterfaceProperties>
+        </InterfaceProperties>
+        <InterfaceName>
+        </InterfaceName>
+      </ToolOptions>
+      <ToolType>custom</ToolType>
+      <ToolNumber>
+      </ToolNumber>
+      <ToolName>Custom Programming Tool</ToolName>
+    </custom>
     <avrtoolinterface>UPDI</avrtoolinterface>
+    <com_atmel_avrdbg_tool_simulator>
+      <ToolOptions xmlns="">
+        <InterfaceProperties>
+        </InterfaceProperties>
+        <InterfaceName>
+        </InterfaceName>
+      </ToolOptions>
+      <ToolType xmlns="">com.atmel.avrdbg.tool.simulator</ToolType>
+      <ToolNumber xmlns="">
+      </ToolNumber>
+      <ToolName xmlns="">Simulator</ToolName>
+    </com_atmel_avrdbg_tool_simulator>
     <com_atmel_avrdbg_tool_nedbg>
       <ToolOptions>
         <InterfaceProperties>
@@ -52,10 +76,11 @@
         <InterfaceName>UPDI</InterfaceName>
       </ToolOptions>
       <ToolType>com.atmel.avrdbg.tool.nedbg</ToolType>
-      <ToolNumber>MCHP3280031800000108</ToolNumber>
+      <ToolNumber>MCHP3280031800000121</ToolNumber>
       <ToolName>nEDBG</ToolName>
     </com_atmel_avrdbg_tool_nedbg>
     <avrtoolinterfaceclock>750000</avrtoolinterfaceclock>
+    <UseGdb>True</UseGdb>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
